@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Fun Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to My Interactive Fun Page</h1>
+    </header>
+    
+    <!-- Main Content Section -->
+    <main>
+        <section>
+            <h2>Toggle the Message!</h2>
+            <button id="btnToggleMessage">Toggle Message</button>
+            <p id="messageToToggle">This message will toggle when you click the button.</p>
+        </section>
+
+        <section>
+            <!-- Image Hover Section -->
+            <h2>Change Image on Hover</h2>
+            <img id="imgHoverChange" src="image.jpg" alt="Sample Image" width="300">
+            <p id="textHoverChange">Hover over the image to see it change!</p>
+        </section>
+
+        <section>
+            <!-- City Color Changer Section -->
+            <h2>City Color Changer</h2>
+            <ul id="cityColorList">
+                <li>New York</li>
+                <li>Paris</li>
+                <li>Tokyo</li>
+            </ul>
+            <p>Click on a city name to change its color.</p>
+        </section>
+
+        <section>
+            <!-- Form Interaction Section -->
+            <h2>Form Interaction</h2>
+            <form id="favoriteColorForm">
+                <label for="userFavoriteColor">Enter your favorite color:</label>
+                <input type="text" id="userFavoriteColor" name="userFavoriteColor" placeholder="e.g., blue">
+                <button type="submit">Submit</button>
+            </form>
+            <p id="displayColorResponse"></p>
+        </section>
+    </main>
+    
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Interactive Fun Page</p>
+    </footer>
+    
+    <script src="script.js" defer></script>
+</body>
+</html>
